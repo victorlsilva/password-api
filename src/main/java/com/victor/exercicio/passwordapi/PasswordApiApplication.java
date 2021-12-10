@@ -3,7 +3,7 @@ package com.victor.exercicio.passwordapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"com.victor.exercicio.passwordapi.constraint"})
+@SpringBootApplication()
 public class PasswordApiApplication {
 
     public static void main(String[] args) {
