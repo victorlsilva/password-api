@@ -1,6 +1,6 @@
 package com.victor.exercicio.passwordapi.constraint;
 
-interface CharCaseValidation {
+public interface CharCaseValidation {
 
     boolean haveUpperCaseChar(String password);
 

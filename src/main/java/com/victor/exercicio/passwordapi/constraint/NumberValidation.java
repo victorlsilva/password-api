@@ -1,6 +1,6 @@
 package com.victor.exercicio.passwordapi.constraint;
 
-interface NumberValidation {
+public interface NumberValidation {
 
     Boolean haveNumber(String password);
 

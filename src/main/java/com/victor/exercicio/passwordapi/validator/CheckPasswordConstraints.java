@@ -1,10 +1,11 @@
-package com.victor.exercicio.passwordapi.constraint.validator;
+package com.victor.exercicio.passwordapi.validator;
 
-import com.victor.exercicio.passwordapi.constraint.PasswordValidationItau;
+import com.victor.exercicio.passwordapi.constraint.*;
 
 import java.util.HashSet;
 
-public class CheckPasswordItau implements PasswordValidationItau {
+public class CheckPasswordConstraints implements RepeatedCharValidation, CharCaseValidation, NumberOfCharsValidation,
+                                        SpecialCharValidation, WhiteSpaceValidation, NumberValidation {
 
     private static final String SPECIAL_CHARACTERS_STRING = "!@#$%^&*()-+";
 
@@ -92,5 +93,6 @@ public class CheckPasswordItau implements PasswordValidationItau {
         }
         return true;
     }
+
 
 }

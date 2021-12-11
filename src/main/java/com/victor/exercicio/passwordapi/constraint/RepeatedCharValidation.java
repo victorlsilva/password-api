@@ -1,6 +1,6 @@
 package com.victor.exercicio.passwordapi.constraint;
 
-interface RepeatedCharValidation {
+public interface RepeatedCharValidation {
 
     Boolean notContainRepeatedChar(String password);
 

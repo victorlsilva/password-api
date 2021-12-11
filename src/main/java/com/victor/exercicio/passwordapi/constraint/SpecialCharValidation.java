@@ -1,6 +1,6 @@
 package com.victor.exercicio.passwordapi.constraint;
 
-interface SpecialCharValidation {
+public interface SpecialCharValidation {
 
     boolean haveSpecialChar(String password);
 

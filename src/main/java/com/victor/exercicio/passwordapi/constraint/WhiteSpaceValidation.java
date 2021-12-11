@@ -1,6 +1,6 @@
 package com.victor.exercicio.passwordapi.constraint;
 
-interface WhiteSpaceValidation {
+public interface WhiteSpaceValidation {
 
     boolean notContainWhiteSpace(String password);
 
