@@ -59,10 +59,11 @@ public class CheckPasswordItau implements PasswordValidationItau {
     public boolean minNumberOfChars(String password, int minSize) {
 
         return password.length() <= minSize;
+
     }
 
     @Override
-    public boolean maxmNumberOfChars(String password, int maxSize) {
+    public boolean maxNumberOfChars(String password, int maxSize) {
 
         return password.length() >= maxSize;
 

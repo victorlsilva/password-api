@@ -5,7 +5,7 @@ import com.victor.exercicio.passwordapi.constraint.validator.CheckPasswordItau;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PasswordValidationItauService extends CheckPasswordItau implements PasswordValidation {
+public class PasswordService extends CheckPasswordItau implements PasswordValidation {
 
 
 
