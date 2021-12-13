@@ -1,12 +1,12 @@
-package com.victor.exercicio.passwordapi.constraint.validator;
+package com.victor.exercicio.passwordapi.validator;
 
-import com.victor.exercicio.passwordapi.validator.CheckPasswordConstraints;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)

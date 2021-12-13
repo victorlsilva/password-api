@@ -1,9 +1,11 @@
 package com.victor.exercicio.passwordapi.validator;
 
 import com.victor.exercicio.passwordapi.constraint.*;
+import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
 
+@Component
 public class CheckPasswordConstraints implements RepeatedCharValidation, CharCaseValidation, NumberOfCharsValidation,
                                         SpecialCharValidation, WhiteSpaceValidation, NumberValidation {
 
