@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class PasswordValidationService extends CheckPasswordConstraints implements PasswordValidation {
 
     @Override
-    public Boolean isValid(String password) {
+    public Boolean allConstraintsAreValid(String password) {
         return this.notContainRepeatedChar(password)
                 && this.haveUpperCaseChar(password)
                 && this.haveLowerCaseChar(password)
