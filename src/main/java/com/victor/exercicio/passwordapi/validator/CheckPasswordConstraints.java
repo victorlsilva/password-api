@@ -59,14 +59,14 @@ public class CheckPasswordConstraints implements RepeatedCharValidation, CharCas
     @Override
     public boolean minNumberOfChars(String password, int minSize) {
 
-        return password.length() <= minSize;
+        return password.length() >= minSize;
 
     }
 
     @Override
     public boolean maxNumberOfChars(String password, int maxSize) {
 
-        return password.length() >= maxSize;
+        return password.length() <= maxSize;
 
     }
 
