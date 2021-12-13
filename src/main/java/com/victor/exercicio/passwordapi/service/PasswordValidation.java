@@ -1,4 +1,4 @@
-package com.victor.exercicio.passwordapi.constraint;
+package com.victor.exercicio.passwordapi.service;
 
 public interface PasswordValidation {
 

@@ -59,7 +59,5 @@ Baixe o projeto: ```git clone https://github.com/victorlsilva/password-api.git``
 ## Testando Aplicação ##
 
 Via curl<br>
-```
-curl -d "password=AbTp9!fok" -X POST http://localhost:8080/api/password/validation
-```
+```curl -d "password=AbTp9!fok" -X POST http://localhost:8080/api/password/validation```
 
