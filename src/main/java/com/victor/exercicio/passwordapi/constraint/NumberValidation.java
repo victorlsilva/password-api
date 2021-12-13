@@ -2,6 +2,11 @@ package com.victor.exercicio.passwordapi.constraint;
 
 public interface NumberValidation {
 
-    Boolean haveNumber(String password);
+    /***
+     * Valida se existe um caractere numérico
+     * @param password
+     * @return boolean
+     */
+    boolean haveNumber(String password);
 
 }

@@ -12,7 +12,7 @@ public class CheckPasswordConstraints implements RepeatedCharValidation, CharCas
     private static final String SPECIAL_CHARACTERS_STRING = "!@#$%^&*()-+";
 
     @Override
-    public Boolean notContainRepeatedChar(String password) {
+    public boolean notContainRepeatedChar(String password) {
         HashSet<Character> characters = new HashSet<>();
 
         for(int i = 0; i < password.length(); i++) {
@@ -47,7 +47,7 @@ public class CheckPasswordConstraints implements RepeatedCharValidation, CharCas
     }
 
     @Override
-    public Boolean haveNumber(String password) {
+    public boolean haveNumber(String password) {
         char ch;
 
         for(int i = 0; i < password.length(); i++) {
@@ -62,13 +62,6 @@ public class CheckPasswordConstraints implements RepeatedCharValidation, CharCas
     public boolean minNumberOfChars(String password, int minSize) {
 
         return password.length() >= minSize;
-
-    }
-
-    @Override
-    public boolean maxNumberOfChars(String password, int maxSize) {
-
-        return password.length() <= maxSize;
 
     }
 

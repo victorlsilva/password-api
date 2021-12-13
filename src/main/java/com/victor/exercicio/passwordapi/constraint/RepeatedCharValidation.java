@@ -2,6 +2,11 @@ package com.victor.exercicio.passwordapi.constraint;
 
 public interface RepeatedCharValidation {
 
-    Boolean notContainRepeatedChar(String password);
+    /***
+     * Valida se existe existe um caractere repetido
+     * @param password
+     * @return boolean
+     */
+    boolean notContainRepeatedChar(String password);
 
 }
