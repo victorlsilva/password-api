@@ -59,8 +59,12 @@ Baixe o projeto: ```git clone https://github.com/victorlsilva/password-api.git``
 ## Testando Aplicação ##
 
 Via curl<br>
+<i>Exemplo com senha válida: <br>
 ```curl -d "password=AbTp9!fok" -X POST http://localhost:8080/api/password/validation```
-
+<br>
+ <i>Exemplo com senha inválida: <br>
+  ```curl -d "password=AbTp9!foka" -X POST http://localhost:8080/api/password/validation```
+<br>
 <br>
 
 ## Notas ##
