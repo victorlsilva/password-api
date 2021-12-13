@@ -1,8 +1,6 @@
 package com.victor.exercicio.passwordapi.service;
 
-import com.victor.exercicio.passwordapi.constraint.PasswordValidation;
 import com.victor.exercicio.passwordapi.validator.CheckPasswordConstraints;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
